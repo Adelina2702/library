@@ -11,3 +11,77 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.left {
+  width: 50%;
+  background: no-repeat url(./images/doctors.gif);
+  background-size: contain;
+}
+.right {
+  width: 50%;
+}
+/* 
+.logo {
+  margin: 220px;
+  width: 130px;
+  height: 98px;
+  margin-left: auto;
+  margin-top: 45px;
+  display: block;
+}*/
+
+.text {
+  width: 250px;
+  color: #3A54AA;
+  /* font-size: 19px; */
+  font-style: normal;  
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.login{
+  /* width: 89px; */
+  /* font-family: 'Poppins'; */
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 30px; */
+  line-height: 45px;
+  color: #071A84; 
+} 
+
+.input{
+  /* width: 251px;
+  height: 47px; */
+  background: #B0B3C4;
+  opacity: 0.5;
+  border: 1px solid #071A84;
+  box-sizing: border-box;
+  border-radius: 50px;
+} 
+
+.input2{
+  /* padding: 20px;
+  width: 251px;
+  height: 47px; */
+  background: #B0B3C4;
+  opacity: 0.5;
+  border: 1px solid #071A84;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+
+input::placeholder{
+  width: 71px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #E7ECF4;
+} 
+
+.btn{
+  width: 139px;
+  height: 35px;
+  background: #3A54AA;
+  border-radius: 50px;
+}
